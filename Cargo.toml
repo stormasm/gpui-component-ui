@@ -1,7 +1,7 @@
 [workspace]
-members = ["crates/story", "crates/ui"]
+members = ["crates/ui"]
 
-default-members = ["crates/story"]
+default-members = ["crates/ui"]
 resolver = "2"
 
 [workspace.dependencies]
