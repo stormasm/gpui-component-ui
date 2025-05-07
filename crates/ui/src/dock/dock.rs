@@ -229,6 +229,7 @@ impl Dock {
     }
 
     pub fn set_panel(&mut self, panel: DockItem, _: &mut Window, cx: &mut Context<Self>) {
+        //println!("dock.rs: set_panel {:?}", panel);
         self.panel = panel;
         cx.notify();
     }
